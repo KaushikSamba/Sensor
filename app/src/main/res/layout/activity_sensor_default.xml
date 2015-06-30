@@ -1,0 +1,56 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.kaushiksamba.sensor.sensor_default">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/fragment_container"
+        android:paddingTop="15dp" />
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        tools:context="com.kaushiksamba.sensor.Sensor_Options"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:paddingBottom="10dp"
+        android:id="@+id/options">
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Data"
+            android:textStyle="bold"
+            android:id="@+id/data_option"
+            android:onClick="show_data" />
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Hardware"
+            android:id="@+id/hardware_option"
+            android:clickable="true"
+            android:textStyle="bold"
+            android:onClick="show_hardware" />
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="90dp"
+        android:text="VIEW GRAPHIC"
+        android:textSize="20sp"
+        android:visibility="invisible"
+        android:id="@+id/view_graphic"
+        android:layout_above="@+id/options"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="100dp" />
+
+</RelativeLayout>

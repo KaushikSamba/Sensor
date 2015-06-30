@@ -1,0 +1,124 @@
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        tools:context="com.kaushiksamba.sensor.Sensor_Details"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/options"
+        android:id="@+id/sensor_data"
+        android:background="@color/background_material_light"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/sensor_name"
+            android:text="Name"
+            android:textSize="16sp"
+            android:textColor="#ff000000"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/sensor_name_detail"
+            android:text="Name"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:textSize="16sp"
+            android:textColor="#ff3d73d0" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/sensor_vendor"
+            android:text="Vendor"
+            android:layout_below="@id/sensor_name"
+            android:textSize="16sp"
+            android:textColor="#ff000000"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/sensor_vendor_detail"
+            android:layout_below="@id/sensor_name"
+            android:text="Vendor"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:textSize="16sp"
+            android:textColor="#ff3d73d0" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/sensor_version"
+            android:text="Version"
+            android:layout_below="@id/sensor_vendor"
+            android:textSize="16sp"
+            android:textColor="#ff000000"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/sensor_version_detail"
+            android:layout_below="@id/sensor_vendor_detail"
+            android:text="Version"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:textSize="16sp"
+            android:textColor="#ff3d73d0" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/sensor_power"
+            android:text="Power"
+            android:layout_below="@id/sensor_version"
+            android:textSize="16sp"
+            android:textColor="#ff000000"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/sensor_power_detail"
+            android:layout_below="@id/sensor_version_detail"
+            android:text="Power"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:textSize="16sp"
+            android:textColor="#ff3d73d0" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/sensor_range"
+            android:text="Maximum Range"
+            android:layout_below="@id/sensor_power"
+            android:textSize="16sp"
+            android:textColor="#ff000000"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/sensor_range_detail"
+            android:layout_below="@id/sensor_power_detail"
+            android:text="Range"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:textSize="16sp"
+            android:textColor="#ff3d73d0" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/sensor_resolution"
+            android:text="Resolution"
+            android:layout_below="@id/sensor_range"
+            android:textSize="16sp"
+            android:textColor="#ff000000"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/sensor_resolution_detail"
+            android:layout_below="@id/sensor_range_detail"
+            android:text="Resolution"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:textSize="16sp"
+            android:textColor="#ff3d73d0" />
+    </RelativeLayout>
+
